@@ -28,7 +28,12 @@ export default class extends Component {
 
 
                     <div class="new-post">
-                        new post
+                        <input type="text"
+                        name="newPost"
+                        className="new-post-input"
+                        placeholder="Type your post here"
+                        />
+                        {/* DropzonComponent */}
                     </div>
 
                     <div className="posts">
@@ -38,18 +43,22 @@ export default class extends Component {
                 </div>
 
                 <div className="profile-right">
-                    <button className="logInOut"></button>
-                    <div className="profilePicture"></div>
-                    <button className="edit">EDIT</button>
-                    <div class="profile-options">
-                        <div className="about">About</div>
-                        <div className="friends">Friends</div>
-                        <div className="photos">Photos</div>
+                    <div className="user-login-display">
+                        <button className="logInOut">Login/Logout</button>
+                        <div className="profilePicture"></div>
                     </div>
-                    <div className="profileIntrests">Books</div>
-                    <div className="profileIntrests">Music</div>
-                    <div className="profileIntrests">Gaming</div>
-                    <div className="profileIntrests">Add new Intrest</div>
+                    
+                    <div class="profile-options">
+                        <div className="upo about">About</div>
+                        <div className="upo friends">Friends</div>
+                        <div className="upo photos">Photos</div>
+                    </div>
+                    <div className="intrests-wrapper">
+                        <div className="profileIntrests">Books</div>
+                        <div className="profileIntrests">Music</div>
+                        <div className="profileIntrests">Gaming</div>
+                        <div className="profileIntrests">Add new Intrest</div>
+                    </div>
                 </div>
 
             
