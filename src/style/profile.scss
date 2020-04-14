@@ -25,8 +25,9 @@
 
         .new-post {
             display: flex;
+            flex-direction: column;
             justify-content: center;
-            align-content: center;
+            align-items: center;
             height: 10vh;
             width: 100%;
 

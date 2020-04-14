@@ -1,13 +1,22 @@
-import React, { Component } from 'react'
+import React, { Component } from 'react';
+import axios from 'axios';
 
 export default class extends Component {
   constructor(props) {
       super(props)
 
       this.state = {
+
           
       }
   }
+
+  handleSubmit() {
+      this.setState({
+          
+      })
+  }
+
 
     render() {
         return (
@@ -34,6 +43,7 @@ export default class extends Component {
                         placeholder="Type your post here"
                         />
                         {/* DropzonComponent */}
+                        <button type="submit">Submit Post</button>
                     </div>
 
                     <div className="posts">
